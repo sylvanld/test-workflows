@@ -1,0 +1,11 @@
+
+name: "Use reusable workflow"
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  reuse-workflow:
+    uses: sylvanld/junkquit-backend-deploy/.github/workflows/main.yml@main
